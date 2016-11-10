@@ -4,6 +4,7 @@ body{
 
 /** Animated part **/
 #animate-icon{
+    margin-top: 10px;
     width: 60px;
     height: 60px;
     position: relative;
@@ -14,7 +15,7 @@ body{
     line-height: 1;
     color: #00c0ff;
 }
-.animated {
+.animated-icon {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -24,7 +25,7 @@ body{
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 }
-@-webkit-keyframes bounce {
+@-webkit-keyframes custom-bounce {
     0%, 100% {
         -webkit-transform: translateY(0);
     }
@@ -32,7 +33,7 @@ body{
         -webkit-transform: translateY(-10px);
     }
 }
-@keyframes bounce {
+@keyframes custom-bounce {
     0%, 100% {
         transform: translateY(0);
     }
@@ -40,7 +41,7 @@ body{
         transform: translateY(-10px);
     }
 }
-.bounce {
-    -webkit-animation-name: bounce;
-    animation-name: bounce;
+.custom-bounce {
+    -webkit-animation-name: custom-bounce;
+    animation-name: custom-bounce;
 }
