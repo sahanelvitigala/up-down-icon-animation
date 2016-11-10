@@ -1,0 +1,32 @@
+{
+  "name": "up-down-icon-animation",
+  "homepage": "https://github.com/sahanrox/up-down-icon-animation",
+  "authors": [
+    "sahanrox <sahanelvitigala@live.com>"
+  ],
+  "description": "Animate icon up and down using css",
+  "main": "index.html",
+  "keywords": [
+    "Animate",
+    "icon",
+    "up",
+    "and",
+    "down",
+    "using",
+    "css"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower-components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}
